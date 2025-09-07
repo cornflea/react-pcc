@@ -1,0 +1,24 @@
+{
+  "branches": ["main"],
+  "repositoryUrl": "https://github.com/cornflea/react-pcc.git",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": true,
+        "access": "public"
+      }
+    ],
+    "@semantic-release/github",
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["CHANGELOG.md", "package.json", "package-lock.json"],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ]
+  ]
+}

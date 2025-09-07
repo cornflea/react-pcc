@@ -1,0 +1,46 @@
+# Source files
+src/
+tsconfig.json
+
+# Development files
+.github/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test files
+test/
+tests/
+**/*.test.ts
+**/*.test.js
+**/*.spec.ts
+**/*.spec.js
+
+# Documentation source
+docs/
+
+# Build tools
+.eslintrc*
+.prettierrc*
+jest.config.*
+rollup.config.*
+webpack.config.*
+
+# Environment files
+.env*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+
+# Node modules (should not be included anyway)
+node_modules/

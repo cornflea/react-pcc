@@ -1,6 +1,6 @@
 {
   "name": "@cornflea/react-pcc",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A CLI tool that finds the latest compatible version of any npm package for your project's current React version.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

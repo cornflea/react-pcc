@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/cornflea/react-pcc/compare/v1.0.0...v2.0.0) (2025-09-07)
+
+
+### Bug Fixes
+
+* update package name to @cornflea/react-pcc for clarity ([4ba799a](https://github.com/cornflea/react-pcc/commit/4ba799a1dd0bee50d2e7d1d37f226b5c03a8f2f1))
+
+
+### BREAKING CHANGES
+
+* Changed package installation command.
+
 # 1.0.0 (2025-09-07)
 
 
